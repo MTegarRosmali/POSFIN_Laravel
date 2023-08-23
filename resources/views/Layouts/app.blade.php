@@ -54,7 +54,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a href="/dashboard" class="nav-link">
+            <a href="/admin/dashboard" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -79,25 +79,25 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="/sliders" class="nav-link">
+                <a href="/admin/sliders" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Sliders</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/services" class="nav-link">
+                <a href="/admin/services" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Services</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/beritas" class="nav-link">
+                <a href="/admin/beritas" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Berita</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/clients" class="nav-link">
+                <a href="/admin/clients" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Data Clients</p>
                 </a>
@@ -105,7 +105,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/admin/about" class="nav-link">
               <i class="nav-icon fas fa-user"></i>
               <p>
                 Tentang
@@ -113,7 +113,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/admin/contact" class="nav-link">
               <i class="nav-icon fas fa-phone"></i>
               <p>
                 Kontak
@@ -121,7 +121,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/" class="nav-link">
               <i class="nav-icon fas fa-arrow-left"></i>
               <p>
                 Logout

@@ -11,14 +11,14 @@ class HomeController extends Controller
         return view('home.index');
     }
 
-    public function about()
+    public function profil()
     {
-        return view('home.about');
+        return view('home.profil');
     }
 
-    public function contact()
+    public function kontak()
     {
-        return view('home.contact');
+        return view('home.kontak');
     }
 
     public function berita()
@@ -26,9 +26,9 @@ class HomeController extends Controller
         return view('home.berita');
     }
 
-    public function services()
+    public function produk()
     {
-        return view('home.services');
+        return view('home.produk');
     }
     
     public function direksi()

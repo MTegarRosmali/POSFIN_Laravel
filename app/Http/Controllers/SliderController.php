@@ -52,7 +52,7 @@ class SliderController extends Controller
 
         Slider::create($input);
 
-        return redirect('/sliders')->with('message', 'Data Berhasil Ditambahkan');
+        return redirect('/admin/sliders')->with('message', 'Data Berhasil Ditambahkan');
 
     }
 
@@ -107,7 +107,7 @@ class SliderController extends Controller
         // Simpan data ke tabel 'sliders'
         $slider->update($input);
     
-        return redirect('/sliders')->with('message', 'Data Anda berhasil diedit!');
+        return redirect('/admin/sliders')->with('message', 'Data Anda berhasil diedit!');
     }
 
     /**
@@ -120,6 +120,6 @@ class SliderController extends Controller
     {
         $slider->delete();
 
-        return redirect('/sliders')->with('message', 'Data Anda berhasil dihapus');
+        return redirect('/admin/sliders')->with('message', 'Data Anda berhasil dihapus');
     }
 }

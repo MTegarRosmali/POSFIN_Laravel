@@ -51,7 +51,7 @@ class ClientController extends Controller
 
         Client::create($input);
 
-        return redirect('/clients')->with('message', 'Data Berhasil Ditambahkan');
+        return redirect('/admin/clients')->with('message', 'Data Berhasil Ditambahkan');
 
     }
 
@@ -96,7 +96,7 @@ class ClientController extends Controller
 
         if ($image = $request->file('image')){
             $destinationPath = 'image/';
-            $imageName = uniqid('Ymd') . "." . $image->getClientOriginalExtension();
+            $imageName = $image->getClientOriginalName();
             $image->move($destinationPath, $imageName);
             $input['image'] = $imageName;
         }else{
@@ -106,7 +106,7 @@ class ClientController extends Controller
         // Simpan data ke tabel 'clients'
         $client->update($input);
     
-        return redirect('/clients')->with('message', 'Data Anda berhasil diedit!');
+        return redirect('/admin/clients')->with('message', 'Data Anda berhasil diedit!');
     }
 
     /**
@@ -119,6 +119,6 @@ class ClientController extends Controller
     {
         $client->delete();
 
-        return redirect('/clients')->with('message', 'Data Anda berhasil dihapus');
+        return redirect('/admin/clients')->with('message', 'Data Anda berhasil dihapus');
     }
 }

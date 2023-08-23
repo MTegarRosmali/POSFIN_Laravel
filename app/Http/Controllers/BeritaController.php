@@ -51,7 +51,7 @@ class BeritaController extends Controller
 
         Berita::create($input);
 
-        return redirect('/beritas')->with('message', 'Data Berhasil Ditambahkan');
+        return redirect('/admin/beritas')->with('message', 'Data Berhasil Ditambahkan');
 
     }
 
@@ -96,7 +96,7 @@ class BeritaController extends Controller
 
         if ($image = $request->file('image')){
             $destinationPath = 'image/';
-            $imageName = uniqid('Ymd') . "." . $image->getClientOriginalExtension();
+            $imageName = $image->getClientOriginalName();
             $image->move($destinationPath, $imageName);
             $input['image'] = $imageName;
         }else{
@@ -106,7 +106,7 @@ class BeritaController extends Controller
         // Simpan data ke tabel 'beritas'
         $berita->update($input);
     
-        return redirect('/beritas')->with('message', 'Data Anda berhasil diedit!');
+        return redirect('/admin/beritas')->with('message', 'Data Anda berhasil diedit!');
     }
 
     /**
@@ -119,6 +119,6 @@ class BeritaController extends Controller
     {
         $berita->delete();
 
-        return redirect('/beritas')->with('message', 'Data Anda berhasil dihapus');
+        return redirect('/admin/beritas')->with('message', 'Data Anda berhasil dihapus');
     }
 }

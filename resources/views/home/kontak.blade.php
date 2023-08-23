@@ -38,7 +38,7 @@
                       Tentang Kami
                     </a> 
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="about">Profil Perusahaan</a></li>
+                      <li><a class="dropdown-item" href="profil">Profil Perusahaan</a></li>
                       <li><a class="dropdown-item" href="direksi">Direksi dan Komisaris</a></li>
                       <li>
                         <a class="dropdown-item" href="core">Core Value Akhlak</a>
@@ -46,13 +46,13 @@
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-bolder" href="services">Produk dan Layanan</a>
+                    <a class="nav-link fw-bolder" href="produk">Produk dan Layanan</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link fw-bolder" href="berita">Berita</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-bolder" href="contact">Kontak Kami</a>
+                    <a class="nav-link fw-bolder" href="kontak">Kontak Kami</a>
                   </li>
                 </ul>
               </div>
@@ -64,7 +64,7 @@
     <div class="contact mb-5">
         <div class="maps">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9008564650267!2d107.61650741431694!3d-6.90245886946713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64c5e8866e5%3A0x37be7ac9d575f7ed!2sGedung%20Sate!5e0!3m2!1sid!2sid!4v1644295540501!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.2101996238108!2d107.63106074657505!3d-6.909631615815493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7b2a94c39ed%3A0xc707cc25a4174da!2sPT%20POS%20FINANSIAL%20INDONESIA%20(POSFIN)!5e0!3m2!1sid!2sid!4v1692816222868!5m2!1sid!2sid"
                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
         <div class="container mt-5">
