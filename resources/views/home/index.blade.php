@@ -41,9 +41,9 @@
             </a> 
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="about">Profil Perusahaan</a></li>
-              <li><a class="dropdown-item" href="team">Direksi dan Komisaris</a></li>
+              <li><a class="dropdown-item" href="direksi">Direksi dan Komisaris</a></li>
               <li>
-                <a class="dropdown-item" href="testimonials">Core Value Akhlak</a>
+                <a class="dropdown-item" href="core">Core Value Akhlak</a>
               </li>
             </ul>
           </li>
@@ -51,7 +51,7 @@
             <a class="nav-link fw-bolder" href="services">Produk dan Layanan</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fw-bolder" href="portfolio">Berita</a>
+            <a class="nav-link fw-bolder" href="berita">Berita</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-bolder" href="contact">Kontak Kami</a>

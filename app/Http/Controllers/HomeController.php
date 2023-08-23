@@ -21,9 +21,9 @@ class HomeController extends Controller
         return view('home.contact');
     }
 
-    public function portfolio()
+    public function berita()
     {
-        return view('home.portfolio');
+        return view('home.berita');
     }
 
     public function services()
@@ -31,13 +31,13 @@ class HomeController extends Controller
         return view('home.services');
     }
     
-    public function team()
+    public function direksi()
     {
-        return view('home.team');
+        return view('home.direksi');
     }
 
-    public function testimonials()
+    public function core()
     {
-        return view('home.testimonials');
+        return view('home.core');
     }
 }

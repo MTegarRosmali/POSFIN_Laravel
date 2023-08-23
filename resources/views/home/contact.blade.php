@@ -29,50 +29,36 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link fw-bolder" href="/">Beranda</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link fw-bolder dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Tentang Kami
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="about">About Us</a></li>
-                            <li><a class="dropdown-item" href="team">Direksi dan Komisaris</a></li>
-                            <li>
-                                <a class="dropdown-item" href="testimonials">Core Value Akhlak</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bolder" href="services">Produk dan Layanan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bolder" href="portfolio">Berita</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bolder active" href="contact">Kontak Kami</a>
-                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bolder active" href="/">Beranda</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link fw-bolder dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Tentang Kami
+                    </a> 
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="about">Profil Perusahaan</a></li>
+                      <li><a class="dropdown-item" href="direksi">Direksi dan Komisaris</a></li>
+                      <li>
+                        <a class="dropdown-item" href="core">Core Value Akhlak</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="services">Produk dan Layanan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="berita">Berita</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="contact">Kontak Kami</a>
+                  </li>
                 </ul>
-            </div>
+              </div>
         </div>
     </nav>
     <!-- end navbar -->
-
-    <!-- breadcumbs  -->
-    <div class="breadcumbs py-2">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center text-white">
-                <h2>Contact</h2>
-                <ol class="d-flex list-unstyled">
-                    <li>Home</li>
-                    <li>Contact</li>
-                </ol>
-            </div>
-        </div>
-    </div>
-    <!-- end breadcumbs -->
 
     <!-- contact -->
     <div class="contact mb-5">
@@ -92,19 +78,17 @@
                                     <div class="col-md-4">
                                         <i class="fa fa-map-marker-alt fa-2x primary float-start me-4"></i>
                                         <h4 class="fw-bolder">Location</h4>
-                                        <p class="ms-5">Jl. Diponegoro No.22, Citarum, Kec. Bandung Wetan, Kota Bandung,
-                                            Jawa
-                                            Barat 40115</p>
+                                        <p class="ms-5">Jl. Jamuju No.2, Cihapit, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40114</p>
                                     </div>
                                     <div class="col-md-4">
                                         <i class="fa fa-envelope fa-2x primary float-start me-3"></i>
                                         <h4 class="fw-bolder">Email</h4>
-                                        <p class="ms-5">info@company.org</p>
+                                        <p class="ms-5">helpdesk@posfin.id</p>
                                     </div>
                                     <div class="col-md-4">
                                         <i class="fa fa-phone-alt fa-2x primary float-start me-3"></i>
                                         <h4 class="fw-bolder">Phone</h4>
-                                        <p class="ms-5">+62 22 456 7771</p>
+                                        <p class="ms-5">022-7275001</p>
                                     </div>
                                 </div>
                             </div>
@@ -148,32 +132,13 @@
 
     <!-- footer -->
     <footer class="mt-5">
-        <div class="footer-top bg-dark text-white p-5">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-3">
-                <h4 class="fw-bold">POSFIN</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repeliat
-                    consequuntur magnam commodi voluptatem quas? Itaque quo obcaecati
-                    perspiciatis quaerat ullam!
-                  </p>
-                  <strong>Phone</strong> : <span>0212345678910 </span>
-                  <br />
-                  <strong>Email</strong> : <span>posfin@gmail.com </span>
-              </div>
-            </div>
-          </div>
-        </div>
-    
         <div class="footer-down bg-darker text-white px-5 py-3">
           <div class="container-fluid">
             <div class="row">
               <div class="col-md-1"></div>
               <div class="col-md-5">
                 <div class="copyright">
-                  &copy; Copyright 2023<strong>PT Pos Finansial Indonesia</strong>. All Right Reserved
+                  &copy; Copyright 2023 | <strong>PT Pos Finansial Indonesia</strong> All Right Reserved
                 </div>
                 <div class="credits">
                   Design by me M.Tegar Nurul Fuad Rosmali 203040150
@@ -184,17 +149,11 @@
                   <a href="" class="mx-2">
                     <i class="fab fa-facebook fa-2x"></i>
                   </a>
-                  <a href="" class="mx-2">
-                    <i class="fab fa-twitter fa-2x"></i>
-                  </a>
-                  <a href="" class="mx-2">
+                  <a href="https://www.instagram.com/posfin.official/#" class="mx-2">
                     <i class="fab fa-instagram fa-2x"></i>
                   </a>
-                  <a href="" class="mx-2">
+                  <a href="https://www.youtube.com/posfin7030" class="mx-2">
                     <i class="fab fa-youtube fa-2x"></i>
-                  </a>
-                  <a href="" class="mx-2">
-                    <i class="fab fa-linkedin fa-2x"></i>
                   </a>
                 </div>
               </div>

@@ -17,7 +17,7 @@
   <!-- custom css -->
   <link rel="stylesheet" href="assets/css/style.css" />
 
-  <title>Profil - POSFIN</title>
+  <title>Core Value Akhlak - POSFIN</title>
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
@@ -59,26 +59,96 @@
     </div>
   </nav>
   <!-- end navbar -->
-  
-  <!-- about -->
-  <div class="container">
-    <div class="row mt-5">
-      <div class="container">
-        <h2 class="text-center fw-bold mb-2">Profil Perusahaan</h2>
+
+  <!-- breadcumbs  -->
+  <div class="breadcumbs py-2">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center text-white">
+        <h2>Testimonials</h2>
+        <ol class="d-flex list-unstyled">
+          <li>Home</li>
+          <li>Testimonials</li>
+        </ol>
       </div>
     </div>
   </div>
-  <!-- end about -->
+  <!-- end breadcumbs -->
 
   <!-- teams -->
-  <div class="teams bg-light mt-5 py-5">
+  <div class="teams bg-light py-5">
     <div class="container">
-      <div class="title-container ">
-        <h2 class="text-center fw-bold ">PT.Pos Finansial Indonesia</h2>
+      <div class="title-container">
+        <h2 class="text-center fw-bold">Testimonials</h2>
       </div>
-      <p>Sejak 2 April 2001, kami biasa dikenal dengan PT Bhakti Wasantara Net, yaitu sebuah perusahaan yang bergerak di bidang IT Slution dan Managed Service. Pada 24 April 2019, kami memperkenalkan diri sebagai PT Pos Finansial Indonesia (POSFIN), hingga saat ini kami terus didukung oleh PT Pos Indonesia (Persero) dan PT Quantum Akses Nusantara (Bakrie Group) sebagai pemegang saham.</p>
-      <p>Berbekal pengalaman selama 18 tahun, kini POSFIN melakukan diversifikasi bisnis pada layanan jasa keuangan berbasis teknologi. Menggunakan Spesialisasi kami dalam bidang IT solution, kami mampu membuat dan menyediakan platform pembayaran yang lengkap dan sederhana untuk konsumen.</p>
-      <p>Melalui dukungan dari PT Pos Indonesia (Persero) sebagai induk perusahaan, kami mendayagunakan 4.800 Kantorpos dan jumlah titik layanan sebanyak 58.700 titik, memberikan kesempatan untuk POSFIN memenuhi kebutuhan masyarakat Indonesia dengan pelayanan yang Prima dan harga kompetitif. Melalui peran serta ini, besar harapan kami untuk mampu berkontribusi meningkatkan pertumbuhan ekonomi pada masyarakat kelas menengah</p>
+      <p class="text-center mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem modi vero voluptas ea
+        molestias eum illo, ducimus eius quisquam repellendus accusamus rerum! Repeliendus enim incidunt assumenda
+        pariatur, quisquam evaniet numquam.</p>
+      <div class="row mt-5">
+        <div class="col-md-6 mt-4" data-aos="fade-right">
+          <div class="card border-0 shadow shadow-sm">
+            <div class="card-body testimonial-item p-5">
+              <img src="assets/img/a1.jpg" alt="" class="img-testimonial float-start rounded-circle me-3">
+              <strong class="d-block">Paul mandy</strong>
+              <small class="text-muted">CEO & Founder</small>
+              <p class="fst-italic mt-3 fs-5">
+                <i class="fa fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellendus ipsam accusantium at
+                blanditiis sint, minus est molestiae voluptas eveniet id nam perspiciatis porro hic expedita debitis
+                maxime beatae. At!
+                <i class="fa fa-quote-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4" data-aos="fade-left">
+          <div class="card border-0 shadow shadow-sm">
+            <div class="card-body testimonial-item p-5">
+              <img src="assets/img/a2.jpg" alt="" class="img-testimonial float-start rounded-circle me-3">
+              <strong class="d-block">Paul mandy</strong>
+              <small class="text-muted">CEO & Founder</small>
+              <p class="fst-italic mt-3 fs-5">
+                <i class="fa fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellendus ipsam accusantium at
+                blanditiis sint, minus est molestiae voluptas eveniet id nam perspiciatis porro hic expedita debitis
+                maxime beatae. At!
+                <i class="fa fa-quote-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4" data-aos="fade-right">
+          <div class="card border-0 shadow shadow-sm">
+            <div class="card-body testimonial-item p-5">
+              <img src="assets/img/a3.jpg" alt="" class="img-testimonial float-start rounded-circle me-3">
+              <strong class="d-block">Paul mandy</strong>
+              <small class="text-muted">CEO & Founder</small>
+              <p class="fst-italic mt-3 fs-5">
+                <i class="fa fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellendus ipsam accusantium at
+                blanditiis sint, minus est molestiae voluptas eveniet id nam perspiciatis porro hic expedita debitis
+                maxime beatae. At!
+                <i class="fa fa-quote-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4" data-aos="fade-left">
+          <div class="card border-0 shadow shadow-sm">
+            <div class="card-body testimonial-item p-5">
+              <img src="assets/img/a4.jpg" alt="" class="img-testimonial float-start rounded-circle me-3">
+              <strong class="d-block">Paul mandy</strong>
+              <small class="text-muted">CEO & Founder</small>
+              <p class="fst-italic mt-3 fs-5">
+                <i class="fa fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repellendus ipsam accusantium at
+                blanditiis sint, minus est molestiae voluptas eveniet id nam perspiciatis porro hic expedita debitis
+                maxime beatae. At!
+                <i class="fa fa-quote-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- end teams -->

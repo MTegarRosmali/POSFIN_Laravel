@@ -29,33 +29,33 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link fw-bolder" href="/">Beranda</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link fw-bolder dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Tentang Kami
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="about">Profil Perusahaan</a></li>
-                            <li><a class="dropdown-item" href="team">Direksi dan Komisaris</a></li>
-                            <li>
-                                <a class="dropdown-item" href="testimonials">Core Value Akhlak</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bolder active" href="services">Produk dan Layanan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bolder" href="portfolio">Berita</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-bolder" href="contact">Kontak Kami</a>
-                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bolder active" href="/">Beranda</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link fw-bolder dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Tentang Kami
+                    </a> 
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="about">Profil Perusahaan</a></li>
+                      <li><a class="dropdown-item" href="direksi">Direksi dan Komisaris</a></li>
+                      <li>
+                        <a class="dropdown-item" href="core">Core Value Akhlak</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="services">Produk dan Layanan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="berita">Berita</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bolder" href="contact">Kontak Kami</a>
+                  </li>
                 </ul>
-            </div>
+              </div>
         </div>
     </nav>
     <!-- end navbar -->

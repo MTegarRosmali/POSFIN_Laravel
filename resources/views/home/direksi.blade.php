@@ -17,7 +17,7 @@
   <!-- custom css -->
   <link rel="stylesheet" href="assets/css/style.css" />
 
-  <title>Profil - POSFIN</title>
+  <title>Direksi dan Komisaris - POSFIN</title>
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
@@ -59,26 +59,59 @@
     </div>
   </nav>
   <!-- end navbar -->
-  
-  <!-- about -->
-  <div class="container">
-    <div class="row mt-5">
-      <div class="container">
-        <h2 class="text-center fw-bold mb-2">Profil Perusahaan</h2>
+
+  <!-- breadcumbs  -->
+  <div class="breadcumbs py-2  ">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center text-white">
+        <h2>Team</h2>
+        <ol class="d-flex list-unstyled">
+          <li>Home</li>
+          <li>Team</li>
+        </ol>
       </div>
     </div>
   </div>
-  <!-- end about -->
+  <!-- end breadcumbs -->
 
   <!-- teams -->
   <div class="teams bg-light mt-5 py-5">
     <div class="container">
-      <div class="title-container ">
-        <h2 class="text-center fw-bold ">PT.Pos Finansial Indonesia</h2>
+      <div class="title-container">
+        <h2 class="text-center fw-bold">Komisaris dan Direksi</h2>
       </div>
-      <p>Sejak 2 April 2001, kami biasa dikenal dengan PT Bhakti Wasantara Net, yaitu sebuah perusahaan yang bergerak di bidang IT Slution dan Managed Service. Pada 24 April 2019, kami memperkenalkan diri sebagai PT Pos Finansial Indonesia (POSFIN), hingga saat ini kami terus didukung oleh PT Pos Indonesia (Persero) dan PT Quantum Akses Nusantara (Bakrie Group) sebagai pemegang saham.</p>
-      <p>Berbekal pengalaman selama 18 tahun, kini POSFIN melakukan diversifikasi bisnis pada layanan jasa keuangan berbasis teknologi. Menggunakan Spesialisasi kami dalam bidang IT solution, kami mampu membuat dan menyediakan platform pembayaran yang lengkap dan sederhana untuk konsumen.</p>
-      <p>Melalui dukungan dari PT Pos Indonesia (Persero) sebagai induk perusahaan, kami mendayagunakan 4.800 Kantorpos dan jumlah titik layanan sebanyak 58.700 titik, memberikan kesempatan untuk POSFIN memenuhi kebutuhan masyarakat Indonesia dengan pelayanan yang Prima dan harga kompetitif. Melalui peran serta ini, besar harapan kami untuk mampu berkontribusi meningkatkan pertumbuhan ekonomi pada masyarakat kelas menengah</p>
+      <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem modi vero voluptas ea
+        molestias eum illo, ducimus eius quisquam repellendus accusamus rerum! Repeliendus enim incidunt assumenda
+        pariatur, quisquam evaniet numquam.</p>
+      <div class="row">
+        <div class="col-md-3" data-aos="fade-up">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/t1.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title text-bold">Haris</h5>
+              <p class="card-text text-muted">Komisaris Utama</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" data-aos="fade-up">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/t2.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title text-bold">Sandi Mardiansyah</h5>
+              <p class="card-text text-muted">Chief Executive Officer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3" data-aos="fade-up">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/t3.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title text-bold">Lilik Handayani</h5>
+              <p class="card-text text-muted">Chief Financial Officer & Risk Management</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- end teams -->
