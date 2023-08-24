@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="container">
-    <a href="/beritas" class="btn btn-primary mb-3">Kembali</a>
+    <a href="/admin/beritas" class="btn btn-primary mb-3">Kembali</a>
     <div class="row">
         <div class="col-md-12">
             <form action="{{ route('beritas.store') }}" method="POST" enctype="multipart/form-data">
@@ -29,8 +29,8 @@
                     <label for="">Gambar</label>
                     <input type="file" class="form-control" name="image">
                 </div>
-                @error('image')
-                <small style="color:red"x>@error('title')
+                @error('image') 
+                <small style="color:red">@error('title')
                     <small style="color:red">{{ $message }}</small>
                     @enderror</small>
                 @enderror

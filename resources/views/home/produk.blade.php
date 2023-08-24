@@ -22,42 +22,42 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#"><span class="primary">POS</span>FIN</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link fw-bolder active" href="/">Beranda</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link fw-bolder dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      Tentang Kami
-                    </a> 
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="profil">Profil Perusahaan</a></li>
-                      <li><a class="dropdown-item" href="direksi">Direksi dan Komisaris</a></li>
-                      <li>
-                        <a class="dropdown-item" href="core">Core Value Akhlak</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bolder" href="produk">Produk dan Layanan</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bolder" href="berita">Berita</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bolder" href="kontak">Kontak Kami</a>
+          <a class="navbar-brand fw-bold" href="#"><span class="primary">POS</span>FIN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-bolder active" href="/">Beranda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link fw-bolder dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Tentang Kami
+                </a> 
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="profil">Profil Perusahaan</a></li>
+                  <li><a class="dropdown-item" href="direksi">Direksi dan Komisaris</a></li>
+                  <li>
+                    <a class="dropdown-item" href="core">Core Value Akhlak</a>
                   </li>
                 </ul>
-              </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolder" href="produk">Produk dan Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolder" href="berita">Berita</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolder" href="kontak">Kontak Kami</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
     <!-- end navbar -->
 
     <!-- breadcumbs  -->
@@ -80,227 +80,26 @@
                 voluptas ea molestias eum illo, ducimus eius quisquam repellendus accusamus rerum! Repeliendus enim
                 incidunt assumenda pariatur, quisquam evaniet numquam.</p>
             <div class="row mt-5">
+                @foreach ($services as $index => $service)
                 <div class="col-md-4">
                     <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
                         <div class="card-body">
                             <div class="card-icon">
-                                <i class="fa fa-book fa-lg fa-3x"></i>
+                                <img src="/image/{{ $service->image }}" alt="" class="img-fluid" width="80">
                             </div>
-                            <div class="card-title fw-bolder mt-4">Lorem Ipsum</div>
-                            <p class="card-description mt-3">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                                nam vero, dolorem iusto eum voluptatibus?
-                            </p>
+                            <div class="card-title fw-bolder mt-4">{{ $service->title }}</div>
+                            <p class="card-description mt-3">{{ $service->description }}</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
-                        <div class="card-body">
-                            <div class="card-icon">
-                                <i class="fa fa-book fa-lg fa-3x"></i>
-                            </div>
-                            <div class="card-title fw-bolder mt-4">Lorem Ipsum</div>
-                            <p class="card-description mt-3">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                                nam vero, dolorem iusto eum voluptatibus?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
-                        <div class="card-body">
-                            <div class="card-icon">
-                                <i class="fa fa-book fa-lg fa-3x"></i>
-                            </div>
-                            <div class="card-title fw-bolder mt-4">Lorem Ipsum</div>
-                            <p class="card-description mt-3">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                                nam vero, dolorem iusto eum voluptatibus?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
-                        <div class="card-body">
-                            <div class="card-icon">
-                                <i class="fa fa-book fa-lg fa-3x"></i>
-                            </div>
-                            <div class="card-title fw-bolder mt-4">Lorem Ipsum</div>
-                            <p class="card-description mt-3">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                                nam vero, dolorem iusto eum voluptatibus?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
-                        <div class="card-body">
-                            <div class="card-icon">
-                                <i class="fa fa-book fa-lg fa-3x"></i>
-                            </div>
-                            <div class="card-title fw-bolder mt-4">Lorem Ipsum</div>
-                            <p class="card-description mt-3">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                                nam vero, dolorem iusto eum voluptatibus?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
-                        <div class="card-body">
-                            <div class="card-icon">
-                                <i class="fa fa-book fa-lg fa-3x"></i>
-                            </div>
-                            <div class="card-title fw-bolder mt-4">Lorem Ipsum</div>
-                            <p class="card-description mt-3">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                                nam vero, dolorem iusto eum voluptatibus?
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>
     <!-- end services -->
 
-    <!-- features -->
-    <div class="features mt-5 py-5">
-        <div class="container">
-            <div class="title-container">
-                <h2 class="text-center fw-bold">FEATURES</h2>
-            </div>
-            <p class="text-center mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem modi vero
-                voluptas ea molestias eum illo, ducimus eius quisquam repellendus accusamus rerum! Repeliendus enim
-                incidunt assumenda pariatur, quisquam evaniet numquam.</p>
-            <div class="row mt-5">
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card border-0 p-4 mt-3 shadow shadow-sm" data-aos="zoom-in">
-                        <div class="card-body d-flex justify-content-around">
-                            <i class="fa fa-book fa-lg fa-2x"></i>
-                            <h2 class="fs-5">Lorem Ipsum</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end features -->
-
     <!-- footer -->
     <footer class="mt-5">
-        <div class="footer-top bg-dark text-white p-5">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-3">
-                <h4 class="fw-bold">POSFIN</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repeliat
-                    consequuntur magnam commodi voluptatem quas? Itaque quo obcaecati
-                    perspiciatis quaerat ullam!
-                  </p>
-                  <strong>Phone</strong> : <span>0212345678910 </span>
-                  <br />
-                  <strong>Email</strong> : <span>posfin@gmail.com </span>
-              </div>
-            </div>
-          </div>
-        </div>
-    
         <div class="footer-down bg-darker text-white px-5 py-3">
           <div class="container-fluid">
             <div class="row">

@@ -105,14 +105,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
           </li>
           <li class="nav-item">
-            <a href="/admin/about" class="nav-link">
-              <i class="nav-icon fas fa-user"></i>
-              <p>
-                Tentang
-              </p>
-            </a>
-          </li>
-          <li class="nav-item">
             <a href="/admin/contact" class="nav-link">
               <i class="nav-icon fas fa-phone"></i>
               <p>

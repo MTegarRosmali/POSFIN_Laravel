@@ -44,7 +44,7 @@ class ClientController extends Controller
 
         if ($image = $request->file('image')) {
             $destinationPath = 'image/';
-            $imageName = date('Ymd') . "." . $image->getClientOriginalExtension();
+            $imageName = $image->getClientOriginalName();
             $image->move($destinationPath, $imageName);
             $input['image'] = $imageName;
         }

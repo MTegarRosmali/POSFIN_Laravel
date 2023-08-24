@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="container">
-    <a href="/clients" class="btn btn-primary mb-3">Kembali</a>
+    <a href="/admin/clients" class="btn btn-primary mb-3">Kembali</a>
     <div class="row">
         <div class="col-md-12">
             <form action="{{ route('clients.store') }}" method="POST" enctype="multipart/form-data">
@@ -30,7 +30,7 @@
                     <input type="file" class="form-control" name="image">
                 </div>
                 @error('image')
-                <small style="color:red"x>@error('title')
+                <small style="color:red">@error('title')
                     <small style="color:red">{{ $message }}</small>
                     @enderror</small>
                 @enderror

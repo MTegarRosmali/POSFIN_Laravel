@@ -21,42 +21,42 @@
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#"><span class="primary">POS</span>FIN</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link fw-bolder active" href="/">Beranda</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link fw-bolder dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      Tentang Kami
-                    </a> 
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="profil">Profil Perusahaan</a></li>
-                      <li><a class="dropdown-item" href="direksi">Direksi dan Komisaris</a></li>
-                      <li>
-                        <a class="dropdown-item" href="core">Core Value Akhlak</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bolder" href="produk">Produk dan Layanan</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bolder" href="berita">Berita</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bolder" href="kontak">Kontak Kami</a>
-                  </li>
-                </ul>
-              </div>
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#"><span class="primary">POS</span>FIN</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-bolder active" href="/">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link fw-bolder dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Tentang Kami
+              </a> 
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="profil">Profil Perusahaan</a></li>
+                <li><a class="dropdown-item" href="direksi">Direksi dan Komisaris</a></li>
+                <li>
+                  <a class="dropdown-item" href="core">Core Value Akhlak</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bolder" href="produk">Produk dan Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bolder" href="berita">Berita</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bolder" href="kontak">Kontak Kami</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!-- end navbar -->
 
@@ -78,17 +78,17 @@
                                     <div class="col-md-4">
                                         <i class="fa fa-map-marker-alt fa-2x primary float-start me-4"></i>
                                         <h4 class="fw-bolder">Location</h4>
-                                        <p class="ms-5">Jl. Jamuju No.2, Cihapit, Kec. Bandung Wetan, Kota Bandung, Jawa Barat 40114</p>
+                                        <p class="ms-5">{{ $contact->alamat }}</p>
                                     </div>
                                     <div class="col-md-4">
                                         <i class="fa fa-envelope fa-2x primary float-start me-3"></i>
                                         <h4 class="fw-bolder">Email</h4>
-                                        <p class="ms-5">helpdesk@posfin.id</p>
+                                        <p class="ms-5">{{ $contact->email }}</p>
                                     </div>
                                     <div class="col-md-4">
                                         <i class="fa fa-phone-alt fa-2x primary float-start me-3"></i>
                                         <h4 class="fw-bolder">Phone</h4>
-                                        <p class="ms-5">022-7275001</p>
+                                        <p class="ms-5">{{ $contact->telepon }}</p>
                                     </div>
                                 </div>
                             </div>

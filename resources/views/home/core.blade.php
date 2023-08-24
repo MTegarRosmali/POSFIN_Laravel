@@ -65,10 +65,6 @@
     <div class="container">
       <div class="d-flex justify-content-between align-items-center text-white">
         <h2>Testimonials</h2>
-        <ol class="d-flex list-unstyled">
-          <li>Home</li>
-          <li>Testimonials</li>
-        </ol>
       </div>
     </div>
   </div>
@@ -155,25 +151,6 @@
 
   <!-- footer -->
   <footer class="mt-5">
-    <div class="footer-top bg-dark text-white p-5">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-3">
-            <h4 class="fw-bold">POSFIN</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repeliat
-                consequuntur magnam commodi voluptatem quas? Itaque quo obcaecati
-                perspiciatis quaerat ullam!
-              </p>
-              <strong>Phone</strong> : <span>0212345678910 </span>
-              <br />
-              <strong>Email</strong> : <span>posfin@gmail.com </span>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="footer-down bg-darker text-white px-5 py-3">
       <div class="container-fluid">
         <div class="row">

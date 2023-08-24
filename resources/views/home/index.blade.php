@@ -72,43 +72,18 @@
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
         aria-label="Slide 3"></button>
     </div>
+
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/img/c1.png" class="d-block w-100 carousel-img" alt="..." />
+      @foreach ($sliders as $index => $slider)
+      <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
+        <img src="image/{{ $slider->image }}" class="d-block w-100 carousel-img" alt="..." />
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            ipsum provident excepturi minima molestias repudiandae, assumenda
-            delectus tempora consectetur explicabo quod! Quaerat veritatis
-            inventore ullam veniam officiis consectetur illo dicta!
-          </p>
+          <h5>{{ $slider->title }}</h5>
+          <p>{{ $slider->description }}</p>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="assets/img/c2.png" class="d-block w-100 carousel-img" alt="..." />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            ipsum provident excepturi minima molestias repudiandae, assumenda
-            delectus tempora consectetur explicabo quod! Quaerat veritatis
-            inventore ullam veniam officiis consectetur illo dicta!
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/c3.png" class="d-block w-100 carousel-img" alt="..." />
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-            ipsum provident excepturi minima molestias repudiandae, assumenda
-            delectus tempora consectetur explicabo quod! Quaerat veritatis
-            inventore ullam veniam officiis consectetur illo dicta!
-          </p>
-        </div>
-      </div>
-    </div>
+      @endforeach
+      
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -126,8 +101,8 @@
       <div class="title-container text-center ">
         <h2 class="fw-bold">Tentang Kami</h2>
       </div>
-        <div class="flex-container justify-content-center">
-          <div class="container ">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+          <div class="container">
             <div class="card" style="width: 18rem;">
               <img src="assets/img/11.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -137,7 +112,6 @@
                 <p class="card-text">  •	Biller Aggregator </p>
                 <p class="card-text">  •	Switching Platfrom Provider </p>
                 <p class="card-text">  •	Digital Remittance & Lending </p>
-                  
               </div>
             </div>
           </div>
@@ -169,8 +143,8 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
         aliquam.
       </p>
-      <div class="row mt-5">
-        <div class="col-md-4 justify-content-center" width="">
+      <div class="row mt-5 d-flex justify-content-center align-items-center">
+        <div class="col-md-4 " width="">
           <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
             <div class="card-body">
               <div class="card-icon">
@@ -197,9 +171,7 @@
       </div>
     </div>
   </div>
-  <!-- end services -->
 
-  <!-- portfolio us -->
   <div class="portfolio-us mt-5">
     <div class="container">
       <div class="title-container">
@@ -219,80 +191,28 @@
         <div class="col-md-12">
           <div class="mansory portfolio-container">
             <div class="mansory-sizer"></div>
+            @foreach ($beritas as $berita)
             <div class="mansory-item m-2 portfolio-item filter-web">
-              <img src="assets/img/p1.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-design">
-              <img src="assets/img/p2.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-design">
-              <img src="assets/img/p3.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-web">
-              <img src="assets/img/p4.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-design">
-              <img src="assets/img/p5.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-photo">
-              <img src="assets/img/p6.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-web">
-              <img src="assets/img/p7.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-web">
-              <img src="assets/img/p8.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-photo">
-              <img src="assets/img/p9.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-web">
-              <img src="assets/img/p10.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-design">
-              <img src="assets/img/p11.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="mansory-item m-2 portfolio-item filter-design">
-              <img src="assets/img/p12.jpg" alt="" class="img-fluid" />
-            </div>
+              <img src="/image/{{ $berita->image }}" alt="" class="img-fluid" />
+            </div> 
+            @endforeach
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- end portfolio us -->
 
-  <!-- clients -->
   <div class="clients mt-5">
     <div class="container">
       <div class="title-container">
         <h2 class="text-center fw-bold">Mitra Kami</h2>
       </div>
       <div class="row mt-5">
+        @foreach ($clients as $client)
         <div class="col-md-3 pt-5 text-center" data-aos="zoom-in">
-          <img src="assets/img/b1.svg" class="img-fluid brand-image" alt="" />
-        </div>
-        <div class="col-md-3 pt-5 text-center" data-aos="zoom-in">
-          <img src="assets/img/b2.svg" class="img-fluid brand-image" alt="" />
-        </div>
-        <div class="col-md-3 pt-5 text-center" data-aos="zoom-in">
-          <img src="assets/img/b3.svg" class="img-fluid brand-image" alt="" />
-        </div>
-        <div class="col-md-3 pt-5 text-center" data-aos="zoom-in">
-          <img src="assets/img/b4.svg" class="img-fluid brand-image" alt="" />
-        </div>
-        <div class="col-md-3 pt-5 text-center" data-aos="zoom-in">
-          <img src="assets/img/b5.svg" class="img-fluid brand-image" alt="" />
-        </div>
-        <div class="col-md-3 pt-5 text-center" data-aos="zoom-in">
-          <img src="assets/img/b6.svg" class="img-fluid brand-image" alt="" />
-        </div>
-        <div class="col-md-3 pt-5 text-center" data-aos="zoom-in">
-          <img src="assets/img/b7.svg" class="img-fluid brand-image" alt="" />
-        </div>
-        <div class="col-md-3 pt-5 text-center" data-aos="zoom-in">
-          <img src="assets/img/b8.svg" class="img-fluid brand-image" alt="" />
-        </div>
+          <img src="/image/{{ $client->image }}" class="img-fluid brand-image" alt="" />
+        </div>   
+        @endforeach
       </div>
     </div>
   </div>
@@ -300,25 +220,6 @@
 
   <!-- footer -->
   <footer class="mt-5">
-    <div class="footer-top bg-dark text-white p-5">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-3">
-            <h4 class="fw-bold">POSFIN</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repeliat
-                consequuntur magnam commodi voluptatem quas? Itaque quo obcaecati
-                perspiciatis quaerat ullam!
-              </p>
-              <strong>Phone</strong> : <span>0212345678910 </span>
-              <br />
-              <strong>Email</strong> : <span>posfin@gmail.com </span>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="footer-down bg-darker text-white px-5 py-3">
       <div class="container-fluid">
         <div class="row">

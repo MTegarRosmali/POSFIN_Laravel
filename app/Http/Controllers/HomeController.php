@@ -3,12 +3,29 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contact;
+use App\Models\Slider;
+use App\Models\Service;
+use App\Models\Berita;
+use App\Models\Client;
 
 class HomeController extends Controller
 {
     public function index()
     {
-        return view('home.index');
+        $sliders = Slider::all();
+        $services = Service::all();
+        $beritas = Berita::all();
+        $clients = Client::all();
+
+
+
+        return view('home.index', compact(
+            'sliders',
+            'services',
+            'beritas',
+            'clients',
+        ));
     }
 
     public function profil()
@@ -18,17 +35,23 @@ class HomeController extends Controller
 
     public function kontak()
     {
-        return view('home.kontak');
+        $contact = Contact::first();
+
+        return view('home.kontak', compact('contact'));
     }
 
     public function berita()
     {
-        return view('home.berita');
+        $beritas = Berita::all();
+
+        return view('home.berita', compact('beritas'));
     }
 
     public function produk()
     {
-        return view('home.produk');
+        $services = Service::all();
+
+        return view('home.produk', compact('services'));
     }
     
     public function direksi()
