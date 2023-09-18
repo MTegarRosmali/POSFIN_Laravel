@@ -101,10 +101,11 @@
       <div class="title-container text-center ">
         <h2 class="fw-bold">Tentang Kami</h2>
       </div>
-        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-          <div class="container">
-            <div class="card" style="width: 18rem;">
-              <img src="assets/img/11.png" class="card-img-top" alt="...">
+      <div class="row mt-5 d-flex justify-content-center align-items-center">
+        <div class="col-md-4">
+          <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
+            <div class="card-body">
+              <<img src="assets/img/11.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">DIGITAL PAYMENT</h5>
                 <p class="card-text">  •	Digital Payment Solution </p>
@@ -115,8 +116,10 @@
               </div>
             </div>
           </div>
-          <div class="container">
-            <div class="card" style="width: 18rem;">
+        </div>
+        <div class="col-md-4 justify-content-center">
+          <div class="card border-0 text-center p-4 mt-3" data-aos="zoom-in">
+            <div class="card-body">
               <img src="assets/img/12.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">DIGITAL SOLUTION</h5>
@@ -126,9 +129,9 @@
                 <p class="card-text">  •	Network & Security Services </p>
                 <p class="card-text">  •	Data Analytic Services</p>
               </div>
-            </div>
           </div>
         </div>
+      </div>
     </div>
   </div>
   <!-- end about us -->
