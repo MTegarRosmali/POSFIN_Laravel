@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 
   <title>Profil - POSFIN</title>
-
+ 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow shadow-sm fixed-top fy-3">
     <div class="container">
@@ -77,7 +77,7 @@
         <h2 class="text-center fw-bold ">PT.Pos Finansial Indonesia</h2>
       </div>
       <p>Sejak 2 April 2001, kami biasa dikenal dengan PT Bhakti Wasantara Net, yaitu sebuah perusahaan yang bergerak di bidang IT Slution dan Managed Service. Pada 24 April 2019, kami memperkenalkan diri sebagai PT Pos Finansial Indonesia (POSFIN), hingga saat ini kami terus didukung oleh PT Pos Indonesia (Persero) dan PT Quantum Akses Nusantara (Bakrie Group) sebagai pemegang saham.</p>
-      <p>Berbekal pengalaman selama 18 tahun, kini POSFIN melakukan diversifikasi bisnis pada layanan jasa keuangan berbasis teknologi. Menggunakan Spesialisasi kami dalam bidang IT solution, kami mampu membuat dan menyediakan platform pembayaran yang lengkap dan sederhana untuk konsumen.</p>
+      <p>Berbekal pengalaman selama 18 tahun, kini POSFIN melakukan diversifikasi bisnis layanan jasa keuangan berbasis teknologi. Menggunakan Spesialisasi kami dalam bidang IT solution, kami mampu membuat dan menyediakan platform pembayaran yang lengkap dan sederhana untuk konsumen.</p>
       <p>Melalui dukungan dari PT Pos Indonesia (Persero) sebagai induk perusahaan, kami mendayagunakan 4.800 Kantorpos dan jumlah titik layanan sebanyak 58.700 titik, memberikan kesempatan untuk POSFIN memenuhi kebutuhan masyarakat Indonesia dengan pelayanan yang Prima dan harga kompetitif. Melalui peran serta ini, besar harapan kami untuk mampu berkontribusi meningkatkan pertumbuhan ekonomi pada masyarakat kelas menengah</p>
     </div>
   </div>
